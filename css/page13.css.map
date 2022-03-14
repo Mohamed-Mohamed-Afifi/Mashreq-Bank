@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,WAAW;AACX,UAIC;EAFG,WAAW,EAAC,aAAa;EACzB,GAAG,EAAC,+BAA+B;AAEvC,UAIC;EAFG,WAAW,EAAC,WAAW;EACvB,GAAG,EAAC,6BAA6B;AAErC,UAIC;EAFG,WAAW,EAAC,UAAU;EACtB,GAAG,EAAC,4BAA4B",
+"sources": ["../sass/_fonts.scss"],
+"names": [],
+"file": "page13.css"
+}

@@ -1,0 +1,19 @@
+@import "fonts","varaibles","mixin","reset";
+
+.brands
+{
+    .brands-heading
+    {
+        font-size: $subsize;
+        color:$maincolor;
+    }
+    .brands-sub-heading
+    {
+        color:$mutedcolor3;
+        font-size: $subsize;
+        span
+        {
+            color:$maincolor;
+        }
+    }
+}

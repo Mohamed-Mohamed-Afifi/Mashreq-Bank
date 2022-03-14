@@ -1,0 +1,48 @@
+/* fonts */
+@font-face {
+  font-family: "Cor-Regular";
+  src: url(fonts/CorisandeRegular.ttf); }
+@font-face {
+  font-family: "Cor-light";
+  src: url(fonts/CorisandeLight.ttf); }
+@font-face {
+  font-family: "Cor-bold";
+  src: url(fonts/CorisandeBold.ttf); }
+.carousel-item .right-content {
+  background: transparent linear-gradient(234deg, #F7971C 0%, #F05A22 100%) 0% 0% no-repeat padding-box;
+  z-index: 500; }
+.carousel-item .banner-content {
+  position: relative !important; }
+.carousel-item .right-side {
+  z-index: 500; }
+.carousel-item .inner-content {
+  position: absolute; }
+.carousel-item .right-content-heading {
+  font-size: 0.9rem; }
+.carousel-item .right-content-sub-heading2 {
+  font-size: 0.9rem; }
+.carousel-item .right-content-footer {
+  font-size: 0.9rem; }
+.carousel-item .right-content-heading {
+  color: #ffffff9e;
+  font-family: "Cor-Regular"; }
+.carousel-item .right-content-sub-heading1 {
+  color: #fff;
+  font-family: "Cor-light";
+  font-size: 2rem;
+  font-weight: bold; }
+.carousel-item .right-content-sub-heading2 {
+  color: #ffffff9e;
+  font-family: "Cor-light"; }
+.carousel-item .right-content-footer {
+  color: #fff;
+  font-family: "Cor-bold";
+  font-weight: bold; }
+
+.navbar-nav .fa {
+  color: #fff;
+  font-size: 1.1rem;
+  background-color: #A8A8A8;
+  width: 2rem; }
+
+/*# sourceMappingURL=page5.css.map */

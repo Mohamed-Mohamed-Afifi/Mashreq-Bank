@@ -1,0 +1,57 @@
+@import "fonts","varaibles","mixin","reset";
+
+.parteners
+{
+    .btn
+    {
+        background-color: $whitecolor!important;
+        color:$mutedcolor10;
+        border-bottom: 4px solid $mutedcolor9;
+    }
+    .active
+    {
+        border: none;
+        border-bottom:4px solid $maincolor!important;
+        color:$mutedcolor2;
+    }
+}
+.accordion
+{
+    .card
+    {
+        .location
+        {
+            color:$mutedcolor2;
+            font-family:$boldfont;
+            font-weight: 900;
+
+        }
+        .location-num
+        {
+            color:$maincolor;
+            font-size: $subsize;
+        }
+        .btn
+        {
+            border-bottom: 0px;
+            &:hover,&:focus
+            {
+                text-decoration: none;
+            }
+        }
+        .card-body
+        {
+            background-color: $whitecolor;
+            color:$mutedcolor6;
+        }
+.card-header
+{
+    background-color: $whitecolor;
+    border-bottom: 1px solid $mutedcolor11;
+}
+.card-header:first-child
+{
+    border-bottom: 0px;
+}
+    }
+}

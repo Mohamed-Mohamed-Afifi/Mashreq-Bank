@@ -1,0 +1,75 @@
+/* fonts */
+@font-face {
+  font-family: "Cor-Regular";
+  src: url(fonts/CorisandeRegular.ttf); }
+@font-face {
+  font-family: "Cor-light";
+  src: url(fonts/CorisandeLight.ttf); }
+@font-face {
+  font-family: "Cor-bold";
+  src: url(fonts/CorisandeBold.ttf); }
+.partaners-list .step-content {
+  font-size: 0.9rem; }
+.partaners-list .step-content-heading {
+  font-size: 0.9rem; }
+.partaners-list .step-content-subheading {
+  font-size: 0.9rem; }
+.partaners-list .step-num {
+  font-size: 0.9rem; }
+.partaners-list .step-content-heading {
+  color: #707070;
+  font-weight: 900; }
+.partaners-list .step-content-subheading {
+  color: #BCBCBC; }
+.partaners-list .btn {
+  border-radius: 0px !important;
+  border: none !important;
+  outline: none !important;
+  border: 1px solid #ADADAD !important; }
+  .partaners-list .btn:focus {
+    -webkit-box-shadow: 0 0 0 0;
+    -ms-box-shadow: 0 0 0 0;
+    -o-box-shadow: 0 0 0 0;
+    box-shadow: 0 0 0 0; }
+.partaners-list .active-step .step-num {
+  color: #fff;
+  font-size: 1.1rem;
+  width: 1.1rem;
+  height: 1.1rem;
+  background-color: #FF5E00; }
+.partaners-list .disable-step .step-num {
+  color: #707070;
+  font-size: 1.1rem;
+  width: 1.1rem;
+  height: 1.1rem;
+  background-color: #DCDCDC; }
+
+.brands .form-group label {
+  color: #A5A5A5; }
+.brands .form-group input {
+  border-radius: 0px !important;
+  border: none !important;
+  outline: none !important;
+  -webkit-box-shadow: 0 0 0 0;
+  -ms-box-shadow: 0 0 0 0;
+  -o-box-shadow: 0 0 0 0;
+  box-shadow: 0 0 0 0;
+  background-color: #F5F5F5;
+  border: 1px solid #ADADAD !important;
+  font-size: 1.1rem; }
+  .brands .form-group input:focus {
+    border: 1px solid #FF5E00 !important; }
+.brands .form-group .btn {
+  border-radius: 0px !important;
+  border: none !important;
+  outline: none !important;
+  background-color: #FF5E00;
+  font-size: 1.1rem;
+  color: #ffffffbd; }
+  .brands .form-group .btn:focus {
+    -webkit-box-shadow: 0 0 0 0;
+    -ms-box-shadow: 0 0 0 0;
+    -o-box-shadow: 0 0 0 0;
+    box-shadow: 0 0 0 0; }
+
+/*# sourceMappingURL=page10.css.map */

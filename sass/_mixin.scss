@@ -1,0 +1,48 @@
+@import "varaibles";
+@mixin brderrad($r)
+{
+    -o-border-radious:$r;
+    -webkit-border-radious:$r;
+    -ms-border-radious:$r;
+    border-radius: $r;
+}
+@mixin shadow($t,$l,$o,$color )
+{
+    -webkit-box-shadow: $t $l $o $color;
+    -ms-box-shadow: $t $l $o $color;
+    -o-box-shadow: $t $l $o $color;
+    box-shadow: $t $l $o $color;
+}
+@mixin transtion($select,$time,$type)
+{
+    -webkit-transition:$select $time $type;
+    -o-transition:$select $time $type;
+    -ms-transition:$select $time $type;
+    transition:$select $time $type;
+}
+@mixin cover {
+    background:
+    {
+        size:cover;
+        repeat:no-repeat;
+    }
+}
+@mixin box-size
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing:border-box;
+    box-sizing: border-box;
+}
+@mixin divider {
+    width: 5rem;
+    height: .19rem;
+    background-color: $maincolor;
+}
+@mixin number {
+    width: 3rem;
+    height: 3rem;
+    background-color: $circulecolor;
+    font-size: $mainsize;
+    padding: $subsize;
+}

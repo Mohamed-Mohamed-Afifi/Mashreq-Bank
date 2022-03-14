@@ -1,0 +1,76 @@
+@import "fonts","varaibles","mixin","reset";
+  
+.table
+{
+    .activ-row
+    {
+        .a
+        {
+            fill:$active;
+        }
+        .b{
+            fill:$whitecolor;
+        }
+        .activ-item
+        {
+            color:$active;
+        }
+    }
+    .disable-row 
+    {
+        .disable-item
+        {
+            color:$disable;
+        }
+    }
+    thead 
+    {
+        th
+        {
+            border-top: 0px;
+        }
+    }
+    td
+    {
+        border-bottom: 1px solid #dee2e6;
+        color: $mutedcolor8;
+        font-size: $subsize;
+    }
+    .rowone
+    {
+        color:$mutedcolor8;
+        font-size: $subsize;
+    }
+
+}
+.pagination
+{
+    .page-item
+    {
+        a
+        {
+            font-size: $subsize;
+        }
+        .page-link-arrow
+        {
+            font-size: $largesize;
+            color:$mutedcolor8;
+        }
+        .active
+        {
+            background-color: $maincolor!important;
+            color:$whitecolor;
+        }
+    }
+.page-link
+{
+    border: 0px;
+    color:$mutedcolor8;
+    &:focus,&:hover
+    {
+        @include shadow(0,0,0,0);
+        background-color: $maincolor;
+        color:$whitecolor;
+    }
+}
+}

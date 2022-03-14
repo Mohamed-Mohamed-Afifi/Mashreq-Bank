@@ -1,0 +1,38 @@
+%cover
+{
+    background:
+    {
+        size:cover;
+        repeat:no-repeat;
+    }
+}
+%transition
+{   
+    /* transition: all .35s ease-in-out; */
+    @include transtion(all,.35s,ease-in-out);
+}
+.main-head
+{
+    @include brderrad(10px);
+}
+.navtitle
+{
+    font-family: $lightfont;
+    color:$maincolor;
+}
+.btn1
+{
+    @include shadow(0px,15px ,15px ,rgba(0,0,0,.75) )
+}
+.btn1:hover
+{
+    transform: scale(2);
+    @include transtion(all,.55s,ease-in-out)
+}
+@for $i from 1 through 5
+{
+    .btn#{$i}
+    {
+        font-size: 1rem+$i;
+    }
+}

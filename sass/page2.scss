@@ -1,0 +1,319 @@
+
+@import "fonts","varaibles","mixin","reset";
+body
+{
+    @include box-size;
+}
+/* css normal pro */
+.divider
+{
+   @include divider;
+}
+.numberd
+{
+    @include number;
+}
+::selection { 
+    color: $whitecolor;
+    background: $maincolor
+  }
+.navtitle
+{
+    background-color:$footercolor;
+    font-family: $regularfont;
+    color:$subcolor;
+}
+.navbar
+{
+    font-family: $lightfont;
+    a
+    {
+        border-bottom: 3px solid transparent;
+    }
+    .active
+    {
+        a
+        {
+        border-bottom: 3px solid $maincolor;
+        }
+    }
+    .nav-item
+    {
+        a:hover
+        {
+        border-bottom: 3px solid $maincolor;
+        @include transtion(all,.10s,ease-in-out);
+        }
+    }
+    .dropdown{
+        .dropdown-toggle
+            {
+                border: 1px solid #7070704F;
+                &:hover
+                {
+                    border: 1px solid #7070704F;
+                }
+            }
+            .dropdown-menu
+            {
+                a
+                {
+                    border-bottom: 0px;
+                }
+                @include brderrad(0);
+                font-size: $subsize;
+                a:hover
+                {
+                    background-color: $maincolor;
+                    color:$whitecolor;
+                    @include transtion(all,.30s,ease-in-out)
+                }
+            }
+         
+}
+    .form-inline
+    {
+        .btn
+        {
+            border:2px solid $maincolor!important;
+            border-radius:0px!important;
+            outline: none!important;
+            color:$maincolor;
+            &:hover,&:focus,&:active
+            {
+                background-color: $whitecolor;
+                outline: none!important;
+                border:1px solid $maincolor!important;
+                color:$maincolor;
+                @include shadow(0,0,0,0);
+            }
+        }
+    }
+}
+.banner
+{
+    $semicolor :banner-heading btn;
+    @each $var in $semicolor {
+        .#{var}
+        {
+            color:$whitecolor;
+        }
+    }
+    .carousel-item
+    {
+        position: relative;
+    }
+    .banner-content
+    {
+        position: absolute;
+        z-index: $highindex;
+        .banner-heading
+        {
+            color:$whitecolor;
+            font-family: $regularfont;
+            font-size: $largesize;
+            font-weight: bold;
+        }
+        .banner-sub-heading
+        {
+            color:$lightmuted;
+            font-family: $lightfont;
+            font-size: $subsize;
+            font-weight: 100;
+        }
+        .btn
+        {
+            border:2px solid $whitecolor;
+            color:$whitecolor;
+            border-radius: 0;
+            &:hover,&:focus,&:active
+            {
+                background-color: $maincolor;
+                outline: none;
+                border:2px solid $whitecolor;
+                @include shadow(0,0,0,0);
+                @include transtion(all,.25s,ease-in-out)
+            }
+        }
+    }
+    .carousel-inner
+    {
+        position: relative;
+        .overlayer
+        {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top:0;
+            left:0;
+            background-color: rgba(0,0,0,45%);
+        }
+    }
+    .carousel-indicators
+    {
+        li
+        {
+            width: 1rem;
+            height: 1rem;
+            background-color: $whitecolor!important;
+            border:1px solid $whitecolor;
+        }
+        .active
+        {
+            background-color: $maincolor!important;
+        }
+    }
+}
+.parteners
+{
+    .btn
+    {
+        background-color: $buttoncolor!important;
+        color:$mutedcolor1;
+        font-size:$defaultfont;
+        font-weight: bold;
+        font-family: $boldfont;
+    }
+    .active
+    {
+        background-color: $maincolor!important;
+        color:$whitecolor;
+        border:1px solid $maincolor;
+        outline: none;
+        @include shadow(0,0,0,0);
+        font-size: $defaultfont;
+        font-weight: bold;
+        font-family: $boldfont;
+    }
+}
+.partaners-list
+{
+    .partaners-heading
+    {
+        font-size: $smallsize;
+        font-family: $regularfont;
+        font-weight: bold;
+        color:$subcolor!important;
+    }
+    .partner-nav
+    {
+        background-color: $navcolor!important;
+    }
+    .nav-item
+    {
+        a
+        {
+            color:$mutedcolor2!important;
+            font-family: $regularfont;
+            font-size: $defaultfont;
+        }
+    }
+}
+.brands
+{
+    .card-title
+    {
+        font-size: $smallsize;
+        font-family: $regularfont;
+        &:hover
+        {
+            cursor: pointer;
+        }
+    }
+    .brands-list
+    {
+        border-bottom: 2px solid $mutedcolor1;
+    }
+}
+.points-part
+{
+    .points-heading
+    {
+        color:$maincolor;
+        font-size: $mainsize;
+        font-family: $boldfont;
+        font-weight: bolder;
+    }
+    .list-content
+    {
+        color:$subcolor;
+        font-size: $subsize;
+        font-family: $regularfont;
+    }
+    .left-heading
+    {
+        color:$subcolor;    
+        font-family: $regularfont;
+    }
+}
+.footer
+{
+    font-family: $regularfont;
+    color:$subcolor;
+    .footer-content
+    {
+        background-color: $footercolor;
+        .footer-heading,.footer-sub-heading
+        {
+            font-size: $smallsize;
+        }
+    }
+}
+
+@media (max-width: 575.98px) {
+    html
+    {
+        font-size: 10px;
+    }
+    .banner
+    {
+        .inner-content
+        {
+            $list:right-side banner-heading divider;
+            @each $var in $list {
+                .#{$var}
+                {
+                    display: none;
+                }
+            }
+        }
+        .carousel-indicators
+        {
+            display: none;
+        }
+    }
+
+
+ }
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+    html
+    {
+        font-size: 10px;
+    }
+    .banner
+    {
+        .inner-content
+        {
+            $list:right-side banner-heading divider;
+            @each $var in $list {
+                .#{$var}
+                {
+                    display: none;
+                }
+            }
+        }
+        .carousel-indicators
+        {
+            display: none;
+        }
+    }
+ }
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+ }
+
+/* // Large devices (desktops, less than 1200px) */
+/* @media (max-width: 1199.98px) { ... } */

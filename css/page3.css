@@ -1,0 +1,81 @@
+/* fonts */
+@font-face {
+  font-family: "Cor-Regular";
+  src: url(fonts/CorisandeRegular.ttf); }
+@font-face {
+  font-family: "Cor-light";
+  src: url(fonts/CorisandeLight.ttf); }
+@font-face {
+  font-family: "Cor-bold";
+  src: url(fonts/CorisandeBold.ttf); }
+.modal .modal-content {
+  border-radius: 0px !important;
+  border: none !important;
+  outline: none !important; }
+  .modal .modal-content:focus {
+    border-radius: 0px !important;
+    border: none !important;
+    outline: none !important; }
+.modal .close {
+  border-radius: 0px !important;
+  border: none !important;
+  outline: none !important; }
+  .modal .close:focus {
+    border-radius: 0px !important;
+    border: none !important;
+    outline: none !important; }
+.modal .close {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  font-size: 2rem; }
+.modal .modal-title {
+  color: #FF5E00;
+  font-family: "Cor-bold";
+  font-weight: bold;
+  font-size: 1.3rem; }
+.modal .modal-sub-title {
+  color: #4A5052;
+  font-size: 0.9rem;
+  font-family: "Cor-Regular"; }
+.modal .body-heading {
+  font-size: 0.9rem;
+  font-family: "Cor-Regular";
+  color: #A5A5A5; }
+.modal .form-control {
+  color: #4A5052;
+  border-radius: 0px !important;
+  border: none !important;
+  outline: none !important;
+  border: 1px solid #ADADAD !important; }
+  .modal .form-control:focus {
+    border-radius: 0px !important;
+    border: none !important;
+    outline: none !important;
+    -webkit-box-shadow: 0 0 0 0;
+    -ms-box-shadow: 0 0 0 0;
+    -o-box-shadow: 0 0 0 0;
+    box-shadow: 0 0 0 0;
+    border: 1px solid #FF5E00 !important; }
+.modal .btn {
+  border-radius: 0px !important;
+  border: none !important;
+  outline: none !important;
+  background-color: #FF5E00 !important;
+  color: #fff;
+  font-size: 1.1rem;
+  font-family: "Cor-light"; }
+  .modal .btn:focus {
+    border-radius: 0px !important;
+    border: none !important;
+    outline: none !important;
+    -webkit-box-shadow: 0 0 0 0;
+    -ms-box-shadow: 0 0 0 0;
+    -o-box-shadow: 0 0 0 0;
+    box-shadow: 0 0 0 0; }
+.modal .modal-footer-heading {
+  color: #4A5052;
+  font-size: 0.9rem;
+  font-family: "Cor-Regular"; }
+
+/*# sourceMappingURL=page3.css.map */

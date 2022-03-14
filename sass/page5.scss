@@ -1,0 +1,63 @@
+@import "fonts","varaibles","mixin","reset";
+
+.carousel-item
+{
+    .right-content
+    {
+        background: transparent linear-gradient(234deg, #F7971C 0%, #F05A22 100%) 0% 0% no-repeat padding-box;
+        z-index: $highindex;
+    }
+    .banner-content
+    {
+        position: relative!important;
+    }
+    .right-side
+    {
+        z-index: $highindex;
+    }
+    .inner-content
+    {
+        position: absolute;
+    }
+    $list :right-content-heading right-content-sub-heading2 right-content-footer;
+    @each $var in $list {
+        .#{$var}
+        {
+            font-size:$smallsize ;
+        }
+    }
+    .right-content-heading
+    {
+        color:$whitetrans;
+        font-family: $regularfont;
+    }
+    .right-content-sub-heading1
+    {
+        color:$whitecolor;
+        font-family: $lightfont;
+        font-size: $xlargesize;
+        font-weight: bold;
+    }
+    .right-content-sub-heading2
+    {
+        color:$whitetrans;
+        font-family: $lightfont;
+    }
+    .right-content-footer
+    {
+        color:$whitecolor;
+        font-family: $boldfont;
+        font-weight: bold;
+    }
+}
+.navbar-nav
+{
+    .fa
+    {
+        color:$whitecolor;
+        font-size: $subsize;
+        background-color:$mutedcolor5 ;
+        width: $xlargesize;
+    }
+
+}

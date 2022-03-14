@@ -1,0 +1,104 @@
+@import "fonts","varaibles","mixin","reset";
+
+.parteners
+{
+    .right-heading
+    {
+        color:$maincolor;
+        font-size: $xlargesize;
+        font-family: $regularfont;
+        font-weight: 900;
+    }
+    .right-sub-heading
+    {
+        color:$mutedcolor6;
+        font-size: $smallsize;
+        font-family:$lightfont;
+    }
+    .parteners-text
+    {
+        color:$subcolor;
+        font-size: $subsize;
+        font-family:$regularfont;
+    }
+    .banner-heading
+    {
+        color:$boldcolor;
+        font-weight: 900;
+        font-family: $boldfont;
+        font-size: $xlargesize;
+    }
+    .terms-list
+    {
+        color:$subcolor;
+        font-size: $subsize;
+        font-family: $regularfont;
+    }
+    .parteners-footer
+    {
+        .btn
+        {
+            @include reset;
+            background-color: #FF5E00 !important;
+            color: $whitetrans2;
+            font-size: 1.1rem;
+            font-family: "Cor-light";
+            &:focus
+            {
+                @include shadow(0,0,0,0);
+            }
+        }
+    }
+    .parteners-content
+    {
+        border-bottom: 1px solid $mutedcolor7;
+    }
+    .parteners-footer-heading
+    {
+        font-weight: 900;
+        font-size: $largesize;
+        font-family: $boldfont;
+        color:$boldcolor;
+    }
+}
+.points-part
+{
+.points-part-content
+{
+    border-bottom: 1px solid $mutedcolor7;
+}
+}
+.brands
+{
+    .points-heading
+{
+    color:$maincolor;
+    font-size: $mainsize;
+    font-family: $boldfont;
+    font-weight: bolder;
+}
+}
+.breadcrumb
+{
+    background-color: transparent;
+    .breadcrumb-item
+    {
+        a
+        {
+        color:$mutedcolor8;
+        &:hover
+        {
+            text-decoration: none;
+        }
+        
+        }
+        &:hover
+        {
+            cursor: pointer;
+        }
+    }
+    .active
+    {
+        color:$maincolor;
+    }
+}

@@ -1,0 +1,20 @@
+/* fonts */
+@font-face {
+  font-family: "Cor-Regular";
+  src: url(fonts/CorisandeRegular.ttf); }
+@font-face {
+  font-family: "Cor-light";
+  src: url(fonts/CorisandeLight.ttf); }
+@font-face {
+  font-family: "Cor-bold";
+  src: url(fonts/CorisandeBold.ttf); }
+.brands .brands-heading {
+  font-size: 1.1rem;
+  color: #FF5E00; }
+.brands .brands-sub-heading {
+  color: #A5A5A5;
+  font-size: 1.1rem; }
+  .brands .brands-sub-heading span {
+    color: #FF5E00; }
+
+/*# sourceMappingURL=page14.css.map */

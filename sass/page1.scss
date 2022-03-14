@@ -1,0 +1,35 @@
+@import "fonts","varaibles","mixin";
+
+.card-body
+{
+    background-color: $card-color;
+
+    .card-sub-title
+    {
+        color:$lightmuted;
+        font-family: $regularfont;
+        font-size: $smallsize;
+    }
+}
+.card-footer
+{
+    background: transparent linear-gradient(268deg, #F1662B 0%, #F9B40F 100%) 0% 0% no-repeat padding-box;
+    svg
+    {
+        width: 100%;
+        margin-top: -2px;
+    }
+}
+.brands
+{
+$list :card-footer-heading card-title ;
+@each $var in $list {
+    .#{$var}
+    {
+        color:$whitecolor;
+        font-family: $boldfont;
+        font-size: $subsize;
+        font-weight: bold;
+    }
+}
+}

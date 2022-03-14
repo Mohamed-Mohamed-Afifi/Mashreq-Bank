@@ -1,0 +1,87 @@
+@import "fonts","varaibles","mixin","reset";
+.partaners-list
+{
+    $list:step-content step-content-heading step-content-subheading step-num;
+    @each $var in $list {
+        .#{$var}
+        {
+            font-size:$smallsize;
+        }
+        
+    }
+    .step-content-heading
+    {
+        color:$mutedcolor7;
+        font-weight: 900;
+    }
+    .step-content-subheading
+    {
+        color:$mutedcolor10;
+    }
+    .btn
+    {
+        @include reset;
+        border: 1px solid $mutedcolor4 !important;
+        &:focus
+        {
+            @include shadow(0,0,0,0);
+        }
+    }
+    .active-step
+    {
+        .step-num
+        {
+            color:$whitecolor;
+            font-size: $subsize;
+            width: $subsize;
+            height: $subsize;
+            background-color: $maincolor;
+        }
+    }
+    .disable-step 
+    {
+        .step-num
+        {
+            color:$mutedcolor7;
+            font-size: $subsize;
+            width: $subsize;
+            height: $subsize;
+            background-color:$circulecolor;
+        }
+    }
+
+}
+.brands
+{
+    .form-group
+    {
+        label
+        {
+            color:$mutedcolor3;
+        }
+        input
+        {
+            @include reset;
+            @include shadow(0,0,0,0);
+            background-color: $navcolor;
+            border:1px solid $mutedcolor4 !important;
+            font-size: $subsize;
+            &:focus
+            {
+                border:1px solid $maincolor !important;
+            }
+        }
+        .btn
+        {
+            @include reset;
+            background-color: $maincolor;
+            font-size: $subsize;
+            color:$whitetrans2;
+            &:focus
+            {
+                @include shadow(0,0,0,0);
+            }
+        }
+    }
+}
+

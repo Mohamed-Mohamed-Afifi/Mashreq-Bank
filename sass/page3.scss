@@ -1,0 +1,73 @@
+@import "fonts","varaibles","mixin","reset";
+.modal
+{
+$list :modal-content close;
+@each $var in $list 
+{
+    .#{$var}
+    {
+        @include reset;
+        &:focus
+        {
+            @include reset; 
+        }
+    }
+}
+.close
+{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-size: $xlargesize;
+}
+.modal-title
+{
+    color:$maincolor;
+    font-family: $boldfont;
+    font-weight: bold;
+    font-size: $mainsize;
+}
+.modal-sub-title
+{
+    color:$subcolor;
+    font-size: $smallsize;
+    font-family: $regularfont;
+}
+.body-heading
+{
+    font-size: $smallsize;
+    font-family:$regularfont ;
+    color:$mutedcolor3;
+}
+.form-control
+{
+    color:$subcolor;
+    @include reset;
+    &:focus
+    {
+        @include reset;
+        @include shadow(0,0,0,0 );
+        border:1px solid $maincolor!important;
+    }
+    border:1px solid $mutedcolor4!important;
+}
+.btn 
+{
+    @include reset;
+    background-color: $maincolor!important;
+    color:$whitecolor;
+    font-size: $subsize;
+    font-family:$lightfont;
+    &:focus
+    {
+        @include reset;
+        @include shadow(0,0,0,0 );
+    }
+}
+.modal-footer-heading
+{
+    color:$subcolor;
+    font-size:$smallsize;
+    font-family:$regularfont;
+}
+}

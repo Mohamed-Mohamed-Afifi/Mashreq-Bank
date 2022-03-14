@@ -1,0 +1,13 @@
+@import "fonts","varaibles","mixin","reset";
+
+.brands 
+{
+    .card-body
+    {
+        background-color: $whitecolor;
+        .card-title
+        {
+        color:$mutedcolor2;
+        }
+    }
+}

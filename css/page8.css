@@ -1,0 +1,40 @@
+/* fonts */
+@font-face {
+  font-family: "Cor-Regular";
+  src: url(fonts/CorisandeRegular.ttf); }
+@font-face {
+  font-family: "Cor-light";
+  src: url(fonts/CorisandeLight.ttf); }
+@font-face {
+  font-family: "Cor-bold";
+  src: url(fonts/CorisandeBold.ttf); }
+.parteners .btn {
+  background-color: #fff !important;
+  color: #BCBCBC;
+  border-bottom: 4px solid #DBDBDB; }
+.parteners .active {
+  border: none;
+  border-bottom: 4px solid #FF5E00 !important;
+  color: #757575; }
+
+.accordion .card .location {
+  color: #757575;
+  font-family: "Cor-bold";
+  font-weight: 900; }
+.accordion .card .location-num {
+  color: #FF5E00;
+  font-size: 1.1rem; }
+.accordion .card .btn {
+  border-bottom: 0px; }
+  .accordion .card .btn:hover, .accordion .card .btn:focus {
+    text-decoration: none; }
+.accordion .card .card-body {
+  background-color: #fff;
+  color: #9B9B9B; }
+.accordion .card .card-header {
+  background-color: #fff;
+  border-bottom: 1px solid #D1D1D1; }
+.accordion .card .card-header:first-child {
+  border-bottom: 0px; }
+
+/*# sourceMappingURL=page8.css.map */

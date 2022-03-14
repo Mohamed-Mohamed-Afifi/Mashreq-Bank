@@ -1,0 +1,35 @@
+/* fonts */
+@font-face {
+  font-family: "Cor-Regular";
+  src: url(fonts/CorisandeRegular.ttf); }
+@font-face {
+  font-family: "Cor-light";
+  src: url(fonts/CorisandeLight.ttf); }
+@font-face {
+  font-family: "Cor-bold";
+  src: url(fonts/CorisandeBold.ttf); }
+.card-body {
+  background-color: #082B65; }
+  .card-body .card-sub-title {
+    color: #ffffffd9;
+    font-family: "Cor-Regular";
+    font-size: 0.9rem; }
+
+.card-footer {
+  background: transparent linear-gradient(268deg, #F1662B 0%, #F9B40F 100%) 0% 0% no-repeat padding-box; }
+  .card-footer svg {
+    width: 100%;
+    margin-top: -2px; }
+
+.brands .card-footer-heading {
+  color: #fff;
+  font-family: "Cor-bold";
+  font-size: 1.1rem;
+  font-weight: bold; }
+.brands .card-title {
+  color: #fff;
+  font-family: "Cor-bold";
+  font-size: 1.1rem;
+  font-weight: bold; }
+
+/*# sourceMappingURL=page1.css.map */

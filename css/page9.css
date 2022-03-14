@@ -1,0 +1,48 @@
+/* fonts */
+@font-face {
+  font-family: "Cor-Regular";
+  src: url(fonts/CorisandeRegular.ttf); }
+@font-face {
+  font-family: "Cor-light";
+  src: url(fonts/CorisandeLight.ttf); }
+@font-face {
+  font-family: "Cor-bold";
+  src: url(fonts/CorisandeBold.ttf); }
+.table .activ-row .a {
+  fill: #59a03f; }
+.table .activ-row .b {
+  fill: #fff; }
+.table .activ-row .activ-item {
+  color: #59a03f; }
+.table .disable-row .disable-item {
+  color: #EB5F5F; }
+.table thead th {
+  border-top: 0px; }
+.table td {
+  border-bottom: 1px solid #dee2e6;
+  color: #989898;
+  font-size: 1.1rem; }
+.table .rowone {
+  color: #989898;
+  font-size: 1.1rem; }
+
+.pagination .page-item a {
+  font-size: 1.1rem; }
+.pagination .page-item .page-link-arrow {
+  font-size: 1.5rem;
+  color: #989898; }
+.pagination .page-item .active {
+  background-color: #FF5E00 !important;
+  color: #fff; }
+.pagination .page-link {
+  border: 0px;
+  color: #989898; }
+  .pagination .page-link:focus, .pagination .page-link:hover {
+    -webkit-box-shadow: 0 0 0 0;
+    -ms-box-shadow: 0 0 0 0;
+    -o-box-shadow: 0 0 0 0;
+    box-shadow: 0 0 0 0;
+    background-color: #FF5E00;
+    color: #fff; }
+
+/*# sourceMappingURL=page9.css.map */
