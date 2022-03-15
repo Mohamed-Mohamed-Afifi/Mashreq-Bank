@@ -1,17 +1,17 @@
-#UI for Mashreq bank website :
+# UI for Mashreq bank website :
 
-##Html
+## Html
 ->Semantic elements
 ->High SEO
 ->High Accessibility
 
-##SCSS
+## SCSS
 ->Animation
 ->Design color,fonts
 ->Flexbox
 ->SVG
 
-##Bootstap4
+## Bootstap4
 ->responsive design
 ->bootstap gird system
 ->Components
